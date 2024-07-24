@@ -31,7 +31,7 @@ export default function RootLayout({
           </nav>
         </header>
         <main className="p-4">{children}</main>
-        <footer className="bg-blue-600 text-white p-4 mt-8 text-center">
+        <footer className="bg-green-800 text-white p-4 mt-8 text-center">
           <p>© 2024 My Next.js App</p>
         </footer>
       </body>
