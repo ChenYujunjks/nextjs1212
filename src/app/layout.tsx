@@ -1,5 +1,6 @@
 // src/app/layout.tsx
 import "@/styles/globals.css";
+import Link from "next/link";
 
 export default function RootLayout({
   children,
@@ -23,9 +24,9 @@ export default function RootLayout({
                 </a>
               </li>
               <li>
-                <a href="/dashboard" className="hover:text-gray-200">
+                <Link href="/dashboard" className="hover:text-gray-200">
                   Dashboard
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
