@@ -1,13 +1,35 @@
-// src/app/dashboard/page.tsx
-import React from "react";
-import UsersList from "../components/UsersList";
+"use client";
+// src/app/users/page.tsx
+import { useEffect, useState } from "react";
+import supabase from "../../lib/supabase-client";
 
-const Userpage = () => {
+const UsersPage = () => {
+  const [users, setUsers] = useState<any[]>([]);
+
+  useEffect(() => {
+    const fetchUsers = async () => {
+      const { data, error } = await supabase.from("newtry").select("*");
+      if (error) {
+        console.error("Error fetching users:", error);
+      } else {
+        setUsers(data);
+      }
+      console.log(data);
+    };
+
+    fetchUsers();
+  }, []);
+
   return (
     <div>
-      <UsersList />
+      <h1>Users List</h1>
+      <ul>
+        {users.map((user) => (
+          <li key={user.id}>{user.name}</li>
+        ))}
+      </ul>
     </div>
   );
 };
 
-export default Userpage;
+export default UsersPage;

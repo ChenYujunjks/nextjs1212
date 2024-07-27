@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <h1>Hello Worldç@!!!!!</h1>
-      <Link href="/users">users</Link>
+      <Link href="/add">Add Operation!</Link>
     </main>
   );
 }
