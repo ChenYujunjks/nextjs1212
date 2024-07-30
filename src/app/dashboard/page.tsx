@@ -8,13 +8,17 @@ const UsersPage = () => {
 
   useEffect(() => {
     const fetchUsers = async () => {
-      const { data, error } = await supabase.from("newtry").select("*");
-      if (error) {
+      try {
+        const response = await fetch("/api/users");
+        const data = await response.json();
+        if (response.ok) {
+          setUsers(data);
+        } else {
+          console.error("Error fetching users:", data.error);
+        }
+      } catch (error) {
         console.error("Error fetching users:", error);
-      } else {
-        setUsers(data);
       }
-      console.log(data);
     };
 
     fetchUsers();
