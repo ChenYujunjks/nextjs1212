@@ -29,15 +29,7 @@ export default function RootLayout({
                   href="/add"
                   className="hover:text-blue-500 transition duration-300"
                 >
-                  Add User
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/dashboard"
-                  className="hover:text-blue-500 transition duration-300"
-                >
-                  Dashboard
+                  Add
                 </Link>
               </li>
             </ul>

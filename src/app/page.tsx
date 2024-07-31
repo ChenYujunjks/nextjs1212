@@ -1,4 +1,3 @@
-// src/app/page.tsx
 import Link from "next/link";
 
 export default function Home() {
@@ -13,10 +12,16 @@ export default function Home() {
           CSS.
         </p>
         <Link
-          href="/add"
+          href="/users"
           className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
         >
-          Add User
+          Main Content
+        </Link>
+        <Link
+          href="/todolist"
+          className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
+        >
+          Check the UI todolist
         </Link>
       </div>
     </main>
