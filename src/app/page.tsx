@@ -7,9 +7,7 @@ export default function Home() {
         <h1 className="text-5xl font-bold text-gray-900 mb-4">
           Welcome to My Next.js App
         </h1>
-        <h1 className="text-4xl font-semibold text-gray-700 mb-4">
-          James You are GOAT!!!
-        </h1>
+        <h1 className="text-4xl font-semibold text-gray-700 mb-4">TBD</h1>
         <p className="text-lg text-gray-700 mb-8">
           This is a modern and beautifully designed home page using Tailwind
           CSS.
@@ -22,10 +20,10 @@ export default function Home() {
             Main Content
           </Link>
           <Link
-            href="/"
+            href="/sign-up"
             className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
           >
-            Add User
+            Sign up
           </Link>
         </div>
       </div>

@@ -38,7 +38,7 @@ const UsersPage = () => {
       if (response.ok) {
         const newUser = await response.json();
         //console.log("New inserted item: ||||", newUser);
-        setUsers((prevUsers) => [...prevUsers, newUser[0]]);
+        setUsers((prevUsers) => [...prevUsers, newUser[0]]); //response.json() return a array
         setItemName("");
         setPrice("");
       } else {
@@ -66,7 +66,7 @@ const UsersPage = () => {
   };
   return (
     <div className="max-w-md mx-auto mt-8 bg-white p-6 rounded-lg shadow-lg">
-      <h1 className="text-2xl font-bold mb-4">Users List</h1>
+      <h1 className="text-2xl font-bold mb-4">Item Price List</h1>
       <ul className="space-y-4">
         {users.map((user) => (
           <li
