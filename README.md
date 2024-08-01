@@ -20,14 +20,13 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+- ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+- ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ## Deploy on Vercel
 
@@ -35,16 +34,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
----
+## Additional Resources
 
-当然可以，这里是你可以点击的链接：
-
-1. [Next.js 官方文档](https://nextjs.org/docs)
-2. [Next.js 的 GitHub 发布页面](https://github.com/vercel/next.js/releases)
-3. [Next.js 官方博客](https://nextjs.org/blog)
-4. [Next.js 12 发布日志](https://nextjs.org/blog/next-12)
-
-通过这些链接，你可以访问相关资源，获取关于 Next.js 各个版本更新的详细信息。
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Next.js GitHub Releases](https://github.com/vercel/next.js/releases)
+- [Next.js Blog](https://nextjs.org/blog)
+- [Next.js 12 Release Notes](https://nextjs.org/blog/next-12)
 
 ---
 
