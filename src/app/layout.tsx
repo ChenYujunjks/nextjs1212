@@ -32,6 +32,22 @@ export default function RootLayout({
                   Add
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/todolist-sample"
+                  className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
+                >
+                  UI todolist
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/fetch-user"
+                  className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
+                >
+                  see User
+                </Link>
+              </li>
             </ul>
           </nav>
         </header>

@@ -20,12 +20,6 @@ export default function Home() {
         >
           Main Content
         </Link>
-        <Link
-          href="/todolist-sample"
-          className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
-        >
-          Check the UI todolist
-        </Link>
       </div>
     </main>
   );
