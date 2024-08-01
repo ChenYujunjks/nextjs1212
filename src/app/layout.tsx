@@ -45,7 +45,7 @@ export default function RootLayout({
             </ul>
           </nav>
         </header>
-        <main className="container mx-auto p-4 mt-6">{children}</main>
+        <main className="container mx-auto p-4 flex-1">{children}</main>
         <footer className="bg-gradient-to-r from-gray-600 to-purple-500 text-white p-4 mt-8 text-center">
           <p>© 2024 My Next.js App. All rights reserved.</p>
         </footer>
