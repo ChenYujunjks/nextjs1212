@@ -14,13 +14,13 @@ export default function RootLayout({
           <nav className="container mx-auto flex items-center justify-between p-4">
             <Link href="/">
               <div className="text-lg font-semibold text-gray-800">
-                My Next.js App
+                Next.js App
               </div>
             </Link>
             <ul className="flex space-x-6">
               <li>
                 <Link
-                  href="/add"
+                  href="/add-number"
                   className="px-4 py-2 bg-blue-600 text-white hover:text-blue-500 rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
                 >
                   Add
