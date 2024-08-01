@@ -15,7 +15,7 @@ export default function Home() {
           CSS.
         </p>
         <Link
-          href="/users"
+          href="/"
           className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
         >
           Main Content
